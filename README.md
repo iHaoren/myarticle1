@@ -1,4 +1,4 @@
-# 🌐 MyLink by Ibnu Harun
+# 🌐 Blog by Ibnu Harun
 
 Ini adalah web blog sederhana yang saya isi beberapa artikel-artikel menarik.
 

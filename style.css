@@ -1,0 +1,170 @@
+*,body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,monospace;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 12px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 15px;
+}
+.username {
+    color: white;
+    font-weight: 800;
+}
+.name {
+    color: lightgreen;
+    font-weight: 500;
+    padding-left: 3px;
+}
+.navigasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigasi > li {
+    list-style: none;
+    padding: 14px;
+}
+.navigasi > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.navigasi >li>a:hover {
+    color: lightgreen ;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+
+.konten {
+    background-color: lightgray;
+    margin: auto;
+    width: 100%;
+}
+
+.konten > ol {
+    list-style: none;
+}
+
+ol > h1 {
+    font-family: monospace;
+    font-size: 3rem;
+    margin: 40px;
+}
+
+.artikel {
+    display: block;
+    margin-top: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.artikel > h1 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.artikel > h4 {
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+}
+.artikel > p {
+    margin: 25px;
+    letter-spacing: 2px;
+}
+img {
+    display: flex;
+    width: 500px;
+    height: auto;
+    margin: 30px auto;
+    border-style: groove;
+    border-color: yellow;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+
+@media (max-width: 700px) {
+    html, body {
+        font-size: 15px;
+    }
+    .wrapper {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .brand {
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+    .navigasi {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navigasi > li {
+        padding: 8px 0;
+        font-size: 1rem;
+    }
+    .artikel > h1 {
+        font-size: 1em;
+        margin-top: 25px;
+        margin-bottom: 8px;
+    }
+    .artikel > h4 {
+        margin-bottom: 30px;
+        font-size: 1em;
+    }
+    .artikel > p {
+        margin: 12px 8px;
+        font-size: 0.95rem;
+    }
+    img {
+        width: 90vw;
+        max-width: 100%;
+        height: auto;
+        margin: 15px auto;
+    }
+    .artikel > h1,
+    .artikel > h4,
+    .artikel > p {
+        line-height: 1.7;
+    }
+}

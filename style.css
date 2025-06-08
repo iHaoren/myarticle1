@@ -12,6 +12,21 @@
     box-sizing: border-box;
 }
 
+.about {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 50px;
+    padding: 150px;
+    background-color: blanchedalmond;
+    border-radius: 5em;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    border-style: dashed;
+}
+
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -130,6 +145,13 @@ footer {
         flex-direction: column;
         height: auto;
         padding: 10px 0;
+    }
+    .about {
+        flex-direction: block;
+        margin: 10px;
+        padding: 70px;
+        font-size: 1rem;
+        
     }
     .brand {
         margin-bottom: 10px;

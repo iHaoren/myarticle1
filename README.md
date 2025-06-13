@@ -1,6 +1,6 @@
 # 🌐 Blog by Ibnu Harun
 
-Ini adalah web blog sederhana yang saya isi beberapa artikel-artikel menarik.
+Ini adalah web artikel sederhana yang saya isi beberapa artikel-artikel menarik.
 
 ✨ Dibuat dengan HTML dan CSS dasar.
 📁 Hosting gratis di GitHub Pages.
